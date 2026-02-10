@@ -1,0 +1,5 @@
+ultralytics==8.3.239
+numpy==1.26.4
+torch
+openCV-python
+supervision==0.8.0
