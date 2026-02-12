@@ -50,3 +50,5 @@ typing_extensions==4.15.0
 ultralytics==8.3.239
 ultralytics-thop==2.0.18
 urllib3==2.6.2
+scikit-learn==1.8.0
+pandas==3.0.0
