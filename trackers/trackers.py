@@ -62,6 +62,7 @@ class Tracker:
         for frame_num, detections in enumerate(detections):
             cls_name = detections.names
             cls_name_inv = {v: k for k, v in cls_name.items()}
+            # print(cls_name_inv)
 
             # Covert to supervision Detection format
             detection_supervision = sv.Detections.from_ultralytics(detections)

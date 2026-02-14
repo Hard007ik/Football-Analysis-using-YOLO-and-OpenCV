@@ -6,11 +6,11 @@ from team_assigner import TeamAssigner
 from player_ball_assigner import PlayerBallAssigner
 from camera_movement_estimator import CameraMovementEstimator
 from view_transformer import ViewTransformer
-from speed_and_distance_estimator import SpeedAndDistanceEstimator, speed_and_distance_estimator
+from speed_and_distance_estimator import SpeedAndDistanceEstimator
 
 def main():
     # read video
-    video_path = "input_video/challenge-1140_1.mp4"
+    video_path = "input_video/08fd33_4.mp4"
     video_frames = read_video(video_path)
     print(f"Video frames read from {video_path}")
     # print(f"Total frames read: {len(video_frames)}")
